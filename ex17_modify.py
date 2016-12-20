@@ -16,4 +16,4 @@ out_file = open(to_file,'w') # 定义变量 out_file 为 以写入模式打开 t
 out_file.write(indata) # 执行变量 out_file 的动作（已写入模式打开 to_file文件）,然后将实参 indate 指向的内容（打开并读取from_fiel） 写入out_file
 
 out_file.close()
-in_file.close()
+
